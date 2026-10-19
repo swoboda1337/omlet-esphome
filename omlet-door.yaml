@@ -88,7 +88,6 @@ sensor:
     name: Light Level
     pin: GPIO1
     attenuation: 12db
-    samples: 16
     update_interval: never
     unit_of_measurement: "%"
     accuracy_decimals: 0
