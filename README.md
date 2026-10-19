@@ -7,11 +7,10 @@ ESPHome so the door works fully locally with Home Assistant. The stock module ha
 encryption, so it can be flashed over the serial header and restored from a backup at any time.
 
 > **Status: works on a real door, still work in progress.**
-> The pin map and protocol details were recovered by disassembling the stock firmware (1.0.55), and the ESPHome
-> components and package were mostly generated from that analysis with AI assistance. Tested on a real door: LCD
-> and backlight, motor direction, end stops and calibration, crush reversal and the coop light all work. Run it
-> from the 12 V adapter only: the firmware does not sleep yet, so AA batteries would go flat within days. Battery
-> operation with deep sleep is planned (see below).
+> The pin map and protocol details were recovered by disassembling the stock firmware (1.0.55). Tested on a real
+> door: LCD and backlight, motor direction, end stops and calibration, crush reversal and the coop light all work.
+> Run it from the 12 V adapter only: the firmware does not sleep yet, so AA batteries would go flat within days.
+> Battery operation with deep sleep is planned (see below).
 
 ## Usage
 
