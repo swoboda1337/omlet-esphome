@@ -207,6 +207,10 @@ interrupt line, but the stock firmware's pin table has no spare input assigned t
 pad or a GPIO the stock firmware never used; the production test's GPIO dump (see HDR5 above) would show which.
 Keep leads short: the bus runs at 100 kHz and may have nothing but the ESP32's internal pull-ups.
 
+_Note: On a board labeled 'CL010-9049SA-22 2024/03/21', the pins on HDR4 are not connected, 
+as all the related board components are missing.  This means that adding I2C devices cannot
+be achieved by simply connecting them to the header._
+
 ## Planned
 
 - Battery operation with deep sleep: decide at boot from the mains-detect pin, timer wake every ten minutes plus
