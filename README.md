@@ -7,8 +7,8 @@ ESPHome so the door works fully locally with Home Assistant. The stock module ha
 encryption, so it can be flashed over the serial header and restored from a backup at any time.
 
 > **Status: works.** I am running this on my own door.
-> Still work in progress: run it from the 12 V adapter only, as the firmware does not sleep yet and AA batteries
-> would go flat within days.
+> Battery operation is still a work in progress: the firmware does not sleep yet, so AA batteries would go flat
+> within days. Run it from the 12 V adapter only.
 
 ## Usage
 
